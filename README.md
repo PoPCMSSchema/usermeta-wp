@@ -20,12 +20,13 @@ Via Composer
 composer require getpop/usermeta-wp
 ```
 
-<!--
 ## Usage
 
+Initialize the component:
+
 ``` php
+\PoP\UserMetaWP\Component::initialize();
 ```
--->
 
 ## Standards
 
