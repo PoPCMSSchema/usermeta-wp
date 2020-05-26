@@ -25,7 +25,9 @@ composer require getpop/usermeta-wp
 Initialize the component:
 
 ``` php
-\PoP\UserMetaWP\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\UserMetaWP\Component::class,
+]);
 ```
 
 ## Standards
